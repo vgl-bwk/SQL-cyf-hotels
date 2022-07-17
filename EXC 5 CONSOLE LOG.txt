@@ -1,0 +1,12 @@
+select * from CUSTOMERS where NAME = 'Laurence Lebihan';
+select * from customers where COUNTRY = 'UK';
+select ADDRESS, CITY, POSTCODE from CUSTOMERS where NAME = 'Melinda Marsh';
+select * from HOTELS where POSTCODE = 'DGQ127';
+select * from HOTELS where ROOMS > 11;
+select * from HOTELS where ROOMS > 6 and ROOMS <15;
+select * from HOTELS where ROOMS = 10 or ROOMS = 20;
+select * from BOOKINGS where CUSTOMER_ID = 1;
+select * from bookings;
+select * from BOOKINGS where NIGHTS > 4;
+select * from BOOKINGS where CHECKIN_DATE > '2020/01/01';
+select * from BOOKINGS where CHECKIN_DATE < '2020/01/01' and NIGHTS < 4;
